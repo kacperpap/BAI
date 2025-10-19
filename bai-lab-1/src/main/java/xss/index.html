@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>XSS - demo</title>
+</head>
+<body>
+  <h1>XSS — demo</h1>
+
+  <form method="GET" action="/vulnerable">
+    <label>Wiadomość (do "echo" w trybie 'vulnerable'):</label><br>
+    <input name="msg" value="<script> alert('xss!') </script>" size="50">
+    <button type="submit">Wyślij (vulnerable)</button>
+  </form>
+
+  <form method="GET" action="/fixed" style="margin-top:1em;">
+    <label>Wiadomość (do "fixed"):</label><br>
+    <input name="msg" value="<script> alert('xss!') </script>" size="50">
+    <button type="submit">Wyślij (fixed)</button>
+  </form>
+
+</body>
+</html>
