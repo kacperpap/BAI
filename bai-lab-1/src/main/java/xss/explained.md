@@ -36,9 +36,17 @@ Aplikacja uruchamia prosty serwer HTTP z dwoma endpointami:
 Formularz testowy w pliku `index.html` pozwala przesłać dowolny tekst do obu wersji. Wersja podatna wyświetli przesłany kod bezpośrednio, umożliwiając wykonanie JavaScript, natomiast wersja bezpieczna wyświetli zakodowany tekst, uniemożliwiając atak XSS.
 
 Wysłanie skryptu w wersji niebezpiecznej poprzez pole formularza:
-![alt text](./screens/xss_v_prev.png)
-![alt text](./screens/xss_v_after.png)
+<p align=center>
+  <img width=800px src="https://github.com/kacperpap/BAI/blob/master/bai-lab-1/src/main/java/xss/screens/xss_v_prev.png">
+</p>
+<p align=center>
+  <img width=800px src="https://github.com/kacperpap/BAI/blob/master/bai-lab-1/src/main/java/xss/screens/xss_v_after.png">
+</p>
 
 Wysłanie skryptu w wersji bezpiecznej poprzez pole formularza:
-![alt text](./screens/xss_f_prev.png)
-![alt text](./screens/xss_f_after.png)
+<p align=center>
+  <img width=800px src="https://github.com/kacperpap/BAI/blob/master/bai-lab-1/src/main/java/xss/screens/xss_f_prev.png">
+</p>
+<p align=center>
+  <img width=800px src="https://github.com/kacperpap/BAI/blob/master/bai-lab-1/src/main/java/xss/screens/xss_f_after.png">
+</p>
