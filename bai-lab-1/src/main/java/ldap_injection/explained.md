@@ -136,4 +136,6 @@ Sama metoda uwierzytalniania korzysta z następujących zabezpieczeń:
 
 ## 3. Main
 Plik main porównuje w prosty sposób, jak wygląda budowa filtra dla wersji bezpiecznej i niebezpiecznej, oraz pokazuje, czy wersja bezpieczna umożliwia zbudowanie takiego filtra.
+
+
 ![alt text](./screens/main.png)
